@@ -11,7 +11,7 @@ const Loading = () => {
                 radius={5}
                 margin={6}
             />
-            {/* <h1 className='loader-title'>Fetching Data</h1> */}
+            <h1 className='loader-title'>Fetching Data...</h1>
         </div>
     )
 }
