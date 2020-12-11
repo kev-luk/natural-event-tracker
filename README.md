@@ -1,7 +1,10 @@
-# Significant Weather Event Tracker
+# Natural Event Tracker
 
 View this project at https://world-weather-tracker.herokuapp.com/
 
-Learn about weather events from across the world.
+Learn about natural events from across the world.
 
-Created using EONET API from NASA.
+Weather information collected from NASA APIs:
+-   EONET (The Earth Observatory Natural Event Tracker)
+
+Read more about these APIs at https://api.nasa.gov/

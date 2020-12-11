@@ -6,8 +6,9 @@ const InfoBox = ({ info }) => {
             <h2>Event Location Info</h2>
             <ul>
                 <li>Title: <strong>{info.title}</strong></li>
+                <li>Category: {info.category}</li>
                 <li>Source: {info.source}</li>
-                <li>URL: <a href={info.url} target='blank'>{info.url}</a></li>
+                <li><a href={info.url} target='blank'>Learn more &rarr;</a></li>
             </ul>
         </div>
     )
