@@ -5,13 +5,17 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #0099ff;
   width: 100vw;
   padding: 0.8em;
+  box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
@@ -77,8 +81,8 @@ body {
 .info-box {
   position: absolute;
   color: white;
-  top: 12%;
-  left: 2%;
+  top: 15vh;
+  left: 3vw;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 1.5em;
   border-radius: 10px;
