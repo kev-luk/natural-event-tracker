@@ -41,6 +41,7 @@ const Map = ({ eventData, center, zoom }) => {
                     onClick={() =>
                         setLocationInfo({
                             title: ev.title,
+                            category: ev.categories[0].title,
                             source: ev.sources[0].id,
                             url: ev.sources[0].url
                         })
@@ -61,6 +62,7 @@ const Map = ({ eventData, center, zoom }) => {
                     onClick={() =>
                         setLocationInfo({
                             title: ev.title,
+                            category: ev.categories[0].title,
                             source: ev.sources[0].id,
                             url: ev.sources[0].url
                         })
@@ -81,6 +83,7 @@ const Map = ({ eventData, center, zoom }) => {
                     onClick={() =>
                         setLocationInfo({
                             title: ev.title,
+                            category: ev.categories[0].title,
                             source: ev.sources[0].id,
                             url: ev.sources[0].url
                         })
