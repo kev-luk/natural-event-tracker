@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-body {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: 'Roboto', sans-serif;
   overflow: hidden;
 }
@@ -26,8 +29,6 @@ body {
   font-size: 2rem;
   text-align: center;
   color: white;
-  margin: 0;
-  padding: 0;
 }
 
 
@@ -93,7 +94,7 @@ body {
 
 .info-box ul {
   list-style: none;
-  padding: 0;
+  margin-top: 1em;
 }
 
 .info-box li {
@@ -104,6 +105,7 @@ body {
   color: #0095ff;
   transition-property: opacity;
   transition-duration: 200ms;
+  text-decoration: none;
 }
 
 .info-box a:hover {
